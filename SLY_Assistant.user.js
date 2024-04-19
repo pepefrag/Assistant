@@ -6,9 +6,9 @@
 // @author       SLY w/ Contributions by niofox, SkyLove512, anthonyra
 // @match        https://*.based.staratlas.com/
 // @require      https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/anchor-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/buffer-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/bs58-browserified.js
+// @require      https://raw.githubusercontent.com/pepefrag/Assistant/main/anchor-browserified.js
+// @require      https://raw.githubusercontent.com/pepefrag/Assistant/main/buffer-browserified.js
+// @require      https://raw.githubusercontent.com/pepefrag/Assistant/main/bs58-browserified.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=staratlas.com
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -25,10 +25,11 @@
 	let customWriteRPCs = [];
 
     let saRPCs = [
-        'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
-		'https://rpc.hellomoon.io/57dbc69d-7e66-4454-b33e-fa6a4b46170f', //Hello Moon
-        'https://staratl-mainc06-2415.mainnet.rpcpool.com', //Triton
-        'https://mainnet.helius-rpc.com/?api-key=735486d8-ae86-4d26-829c-e34a2210d119', //Helius
+	'https://rpc.hellomoon.io/20b6dadf-4b57-4bf8-8ede-abb213fdc796', //Hello Moon
+        //'https://twilight-autumn-diagram.solana-mainnet.quiknode.pro/4fc53d638efd1cc0f80764bc457944bb325d1ff1', //Quicknode
+	//'https://rpc.hellomoon.io/20b6dadf-4b57-4bf8-8ede-abb213fdc796', //Hello Moon
+        //'https://staratl-mainc06-2415.mainnet.rpcpool.com', //Triton
+        //'https://mainnet.helius-rpc.com/?api-key=735486d8-ae86-4d26-829c-e34a2210d119', //Helius
 	];
     let readRPCs = customReadRPCs.concat(saRPCs);
     let writeRPCs = customWriteRPCs.concat(saRPCs);
